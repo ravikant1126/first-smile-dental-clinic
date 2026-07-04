@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preview - First Smile Dental Clinic</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      height: 100%;
+      font-family: Inter, Arial, sans-serif;
+      background: #102740;
+      color: #fff;
+    }
+
+    .bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: .8rem 1rem;
+      background: #102740;
+      box-shadow: 0 2px 14px rgba(0, 0, 0, .25);
+    }
+
+    a {
+      color: #fff;
+      background: #5fb756;
+      border-radius: 999px;
+      padding: .65rem 1rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: calc(100% - 58px);
+      border: 0;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="bar">
+    <strong>First Smile Dental Clinic preview</strong>
+    <a href="/" target="_blank" rel="noopener">Open full preview</a>
+  </div>
+  <iframe title="First Smile Dental Clinic website preview"></iframe>
+  <script>
+    window.addEventListener("load", () => {
+      requestAnimationFrame(() => {
+        document.querySelector("iframe").src = "/";
+      });
+    });
+  </script>
+</body>
+</html>
