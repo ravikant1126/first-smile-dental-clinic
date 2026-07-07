@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://firstsmiledentalclinic.com/sitemap.xml
