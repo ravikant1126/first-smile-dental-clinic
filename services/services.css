@@ -1,5 +1,0 @@
-body{font-family:Arial,sans-serif;margin:0;background:#f6f8fb;color:#222}
-.hero{background:#0b7fab;color:#fff;text-align:center;padding:50px 20px}.btn{display:inline-block;background:#fff;color:#0b7fab;padding:12px 22px;border-radius:30px;text-decoration:none;font-weight:bold}
-.grid{max-width:1200px;margin:40px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;padding:0 20px}
-.card{background:#fff;border-radius:16px;padding:22px;box-shadow:0 4px 14px rgba(0,0,0,.08)}
-.card h3{margin-top:0;color:#0b7fab}ul{padding-left:18px}footer{text-align:center;padding:30px}
